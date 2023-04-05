@@ -43,15 +43,6 @@
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))() 
     end
 
-    --Slap Battles
-    if game.PlaceId == 6403373529 then
-        game:GetService("StarterGui"):SetCore("SendNotification",{
-            Title = "Script Loader",
-            Text = "Script Loader has found a script for Slap Battles",
-            Duration = "3"
-        })
-        wait(4)
-
 --K.A.T
     if game.PlaceId == 286090429 then
         game:GetService("StarterGui"):SetCore("SendNotification",{
@@ -84,19 +75,4 @@ if game.PlaceId == 10277607801 then
     })
     wait(4)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ShadowScripts4Roblox/PROTECTEDLUA/main/Scripts/APEIROPHOBIA/1.0.%3Blua'))()
-end
-
-
-
---Blox Fruits
-if game.PlaceId == 2753915549 then
-    game:GetService("StarterGui"):SetCore("SendNotification",{
-        Title = "Script Loader",
-        Text = "Script Loader has found a script for Blox Fruits",
-        Duration = "3"
-    })
-    wait(4)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHuB/main/Chiba-BF.txt'))()
-end
-
 end
