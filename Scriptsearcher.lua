@@ -1,4 +1,9 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script Loader",
+    Text = "Scripts Loader has loaded to run it please press K"})
 
+game:GetService("UserInputService").InputBegan:Connect(function(input, isTyping)
+    if input.KeyCode == Enum.KeyCode.K then
     --phantom forcess
     if game.PlaceId == 292439477 then
         game:GetService("StarterGui"):SetCore("SendNotification",{
@@ -76,3 +81,5 @@ if game.PlaceId == 10277607801 then
     wait(4)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ShadowScripts4Roblox/PROTECTEDLUA/main/Scripts/APEIROPHOBIA/1.0.%3Blua'))()
 end
+end
+end)
